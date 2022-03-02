@@ -4,11 +4,11 @@ simple service to query http://www.zippopotam.us/ to obtain information about a 
 to be used with https://github.com/ryan396/zipcode-lookup-ui
 
 ## run locally
-must have node.js installed: https://nodejs.org/en/\
+must have node.js installed: https://nodejs.org/en/ \
 clone repo\
 npm install\
 npm start\
-npm test for testing\
+npm test for testing
 
 ## endpoints
 /health to check if server is running\

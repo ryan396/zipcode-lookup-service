@@ -1,8 +1,11 @@
 const express = require("express");
 import axios from "axios";
 import { Request, Response } from "express";
+var cors = require("cors");
 const app = express();
 const PORT = 8000;
+
+app.use(cors());
 
 app.get("/health", (req: Request, res: Response) =>
   res.send("server is running")

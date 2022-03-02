@@ -19,7 +19,7 @@ const expectedSearchResult =
   '{"post code":"55417","country":"United States","country abbreviation":"US","places":[{"place name":"Minneapolis","longitude":"-93.2361","state":"Minnesota","state abbreviation":"MN","latitude":"44.9054"}]}';
 
 describe("zip code query for minneapolis", () => {
-  it("responds with text", function (done) {
+  it("responds with data for minneapolis", function (done) {
     supertest(app)
       .get(`/zipcode/us/55417`)
       .expect(expectedSearchResult)
